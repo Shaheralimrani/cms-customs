@@ -1,0 +1,15 @@
+{
+    "name": "shaheralimrani/cms-customs",
+    "description": "Customs Management System - Plain PHP with MySQL",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*",
+        "ext-mbstring": "*",
+        "ext-json": "*"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

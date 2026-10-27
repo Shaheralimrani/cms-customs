@@ -1,0 +1,77 @@
+# ============================================
+# Environment & Secrets
+# ============================================
+.env
+.env.*
+!.env.example
+config/add_admin.php
+
+# ============================================
+# User Uploads — Private Data
+# ============================================
+uploads/declarations/*
+!uploads/declarations/.gitkeep
+uploads/*.tmp
+
+# ============================================
+# Logs
+# ============================================
+*.log
+storage/logs/
+!storage/logs/.gitkeep
+
+# ============================================
+# IDE / Editors
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.ftplog
+nbproject/
+
+# ============================================
+# Operating System
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============================================
+# Backup & Temporary Files
+# ============================================
+*.bak
+*.old
+*.orig
+*.rej
+*.tmp
+*.cache
+
+# ============================================
+# Database Dumps
+# ============================================
+*.sql
+!database/seeds/*.sql
+
+# ============================================
+# Certificates & Private Keys
+# ============================================
+*.pem
+*.key
+*.p12
+*.crt
+*.cert
+
+# ============================================
+# Node.js
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

@@ -1,0 +1,37 @@
+.user-management .card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.06);
+    margin-bottom: 24px;
+}
+
+.user-management .card-header {
+    background: #ffffff;
+    font-weight: 700;
+    padding: 18px;
+}
+
+.user-management .table th,
+.user-management .table td {
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.user-management .table thead th {
+    background: #eaf0f8;
+}
+
+.user-management .role-badge {
+    display: inline-block;
+    background: #e7effa;
+    color: #17365d;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.user-management .action-buttons {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}

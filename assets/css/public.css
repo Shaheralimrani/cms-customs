@@ -1,0 +1,37 @@
+/*
+
+* File: assets/css/public.css
+* التنسيقات المشتركة للصفحات العامة.
+  */
+
+.cms-public-page {
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+.cms-main-content {
+flex: 1;
+width: 100%;
+}
+
+/* روابط التنقل */
+.cms-navbar .nav-link {
+transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.cms-navbar .nav-link.active {
+font-weight: 700;
+}
+
+/* التذييل */
+.cms-footer {
+margin-top: auto;
+}
+
+/* تحسين عرض الصفحات على الجوال */
+@media (max-width: 767.98px) {
+.cms-main-content {
+width: 100%;
+}
+}
